@@ -1,0 +1,80 @@
+:root {
+    --color01: #1c8fac;
+    --color02: #06425a;
+    --color03: #a1f1fc;
+    --color04: #000000;
+    --color05: #bcd7db;
+    --color06: #11f7ff;
+    --color07: #136297;
+    --color08: #456b81;
+    --color09: #ffffff;  
+    --border-radius: 0.4rem;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: auto;
+    justify-content: flex-start;
+    background-color: var(--color08);
+}
+
+header {
+    padding: 40px;
+    text-align: left;
+    background: var(--color02);
+    color: var(--color04);
+    border-bottom-style: solid;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+}
+
+nav {
+    display: flex;
+    color: var(--color05);
+    background-color: var(--color07);
+}
+
+button {
+    background-color: var(--color01);
+    color: var(--color03);
+    border-radius: 30%;
+}
+
+button:hover {
+    box-shadow: var(--color06);
+}
+
+input[type=text] {
+    width: 800px;
+    margin: 20px 10px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: var(--color02);
+
+}
+
+.btn {
+    width: 100px;
+    font-size: large;
+}
+#applicationExperience {
+    padding: 200px;
+}
+
+#ratingText {
+    padding: 200px;
+}
+.container {
+    display: flex;
+    flex-flow: column wrap;
+    align-content: flex-start;
+    align-items: center;
+  }
+  

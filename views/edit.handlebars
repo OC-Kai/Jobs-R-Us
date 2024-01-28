@@ -1,0 +1,25 @@
+<h2>Edit a Job</h2>
+
+<div>
+    <form class="editJob-form">
+        <div>
+            <h3>Job Title:</h3>
+            <input class="jobTitleInput" type="text" value={{job.job_title}}/>
+        </div>
+        <div>
+            <h3>Salary:</h3>
+            <input class="jobSalaryInput" type="text" value={{job.salary}}/>
+        </div>
+        <div>
+            <h3>Job Description:</h3>
+            <input class="jobDescriptionInput" type="text" value={{job.description_text}}/>
+        </div>
+        <div>
+            <h3>Job Requirements:</h3>
+            <input class="jobTitleInput" type="text" value={{job.requirements_text}}/>
+        </div>
+        <button class="btn editJobBtn" type="submit">Update Job</button>
+    </form>
+</div>
+
+<script src="../../public/js/postJob.js"></script>

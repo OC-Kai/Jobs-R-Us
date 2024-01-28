@@ -1,0 +1,23 @@
+<h2>Open Job Listings</h2>
+<div class="dashboard">
+    {{#each jobs as |job|}}
+<div class="jobPost">
+    <div class="jobTitle">
+        <h3>{{job.job_title}}</h3>
+    </div>
+    <div class="jobSalary">
+        <p>Salary: {{job.salary}}</p>
+    </div>
+    <div class="jobDescription">
+        <p>Description: {{job.description_text}}</p>
+    </div>
+    <div class="jobRequirements">
+        <p>Requirements: {{job.requirements_text}}</p>
+    </div>
+    <button class="btn applyBtn">Apply</button>
+    <br>
+</div>
+    {{/each}}
+</div>
+
+<script src="../public/js/apply.js"></script>

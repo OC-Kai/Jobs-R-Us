@@ -1,0 +1,19 @@
+<div>
+    <h2>Looking to Apply or Hire?</h2>
+</div>
+<div class="container">
+    <p>Jobs R Us can match you with your perfect Employer or Employee.</p>
+    <p>Get started by either applying to a position or posting a new job listing below.</p>
+</div>
+<div id="homepageBtns">
+    <button class="btn" id="homepageApplyBtn">Apply</button>
+    <button class="btn" id="homepagePostBtn">Post</button>
+</div>
+{{#unless session.loggedIn}}
+<div>
+    <p>Not a member yet? Sign up below.</p>
+    <a href="/login">Signup</a>
+</div>
+{{/unless}}
+
+<script src="./js/homepage.js"></script>
